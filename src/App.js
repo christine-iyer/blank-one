@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import Auth from './components/Auth/Auth'
 import CreateBookmark from './components/CreateBookmark/CreateBookmark'
 import BookmarkList from './components/BookmarkList/BookmarkList'
-import FruitsPage from './components/FruitsPage/FruitsPage'
 export default function App () {
   
   const handleChangeAuth = (event) => {
@@ -172,7 +171,7 @@ export default function App () {
         deleteBookmark={deleteBookmark}
         updateBookmark={updateBookmark}
       />
-      <FruitsPage />
+
     </>
   )
 }
