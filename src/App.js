@@ -74,7 +74,7 @@ export default function App () {
       setBookmark({
         title: '',
         category: '',
-        url: '', 
+        url: '',
         anon: false
       })
     }
