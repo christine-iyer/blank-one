@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 
-export default function Bookmark ({
+export default function Bookmark({
   bookmark,
   updateBookmark,
   deleteBookmark
@@ -26,27 +26,21 @@ export default function Bookmark ({
         />
 
 
-<h4 onClick={() => setShowInput(!showInput)}>{bookmark.category}</h4>
+        <h4 onClick={() => setShowInput(!showInput)}>{bookmark.category}</h4>
         <input
           ref={inputRef}
           style={{ display: showInput ? 'block' : 'none' }}
-          type='select'
+          type='option'
           onKeyDown={(e) => {
             if (e.key === 'Enter') {
               const category = inputRef.current.value
+
               updateBookmark(bookmark._id, { category })
               setShowInput(false)
             }
           }}
           defaultValue={bookmark.category}
         />
-
-        
-
-
-
-
-
         <a href={bookmark.url} target='_blank' rel='noreferrer'>{bookmark.url} Link</a>
         <button
           onClick={() => deleteBookmark(bookmark._id)}

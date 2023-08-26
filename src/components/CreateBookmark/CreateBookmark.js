@@ -11,19 +11,19 @@ export default function CreateBookmark ({
            createBookmark()
          }}
          >
-           <input type='text' value={bookmark.title} name='title' onChange={handleChange} placeholder='Field A1' />
+           <input type='text' value={bookmark.title} name='title' onChange={handleChange} placeholder='text' />
            
            <select
             value={bookmark.category}
             onChange={handleChange}
             name="category">
-            <option value="Field A2a">Field A2 Select One</option>
-            <option value="Field A2b">Field A2a</option>
-            <option value="Field A2c">Field A2b</option>
-            <option value="Field A2d">Field A2c</option>
+            <option value="option a">option a</option>
+            <option value="option b">option b</option>
+            <option value="option c">option c</option>
+            <option value="option d">option d</option>
           </select>
           {/* <br /> */}
-          <input type='text' value={bookmark.url} name='url' onChange={handleChange} placeholder='http://field a3' />
+          <input type='text' value={bookmark.url} name='url' onChange={handleChange} placeholder='http://link.com' />
            <input type='submit' value='Create Bookmark' />
          </form>
        </>

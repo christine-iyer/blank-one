@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Auth from './components/Auth/Auth'
 import CreateBookmark from './components/CreateBookmark/CreateBookmark'
 import BookmarkList from './components/BookmarkList/BookmarkList'
-
+import FruitsPage from './components/FruitsPage/FruitsPage'
 export default function App () {
   
   const handleChangeAuth = (event) => {
@@ -136,7 +136,7 @@ export default function App () {
     if (tokenData && tokenData !== 'null' && tokenData !== 'undefined') {
       listBookmarksByUser()
     }
-  }, [])
+  }, [token])
 
   useEffect(() => {
     const tokenData = localStorage.getItem('token')
@@ -146,6 +146,16 @@ export default function App () {
   }, [])
   return (
     <>
+    {
+      token? 
+      <button onClick={() => {
+        localStorage.removeItem('token')
+        window.location.reload()
+      }}>
+        Logout
+      </button>:
+      ''
+    }
       <Auth
         login={login}
         credentials={credentials}
@@ -162,6 +172,7 @@ export default function App () {
         deleteBookmark={deleteBookmark}
         updateBookmark={updateBookmark}
       />
+      <FruitsPage />
     </>
   )
 }
