@@ -30,7 +30,7 @@ export default function Bookmark ({
         <input
           ref={inputRef}
           style={{ display: showInput ? 'block' : 'none' }}
-          type='text'
+          type='select'
           onKeyDown={(e) => {
             if (e.key === 'Enter') {
               const category = inputRef.current.value
@@ -47,7 +47,7 @@ export default function Bookmark ({
 
 
 
-        <a href={bookmark.url} target='_blank' rel='noreferrer'>Link to {bookmark.title}</a>
+        <a href={bookmark.url} target='_blank' rel='noreferrer'>{bookmark.url} Link</a>
         <button
           onClick={() => deleteBookmark(bookmark._id)}
         >
