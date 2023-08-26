@@ -24,6 +24,7 @@ export default function CreateBookmark ({
           </select>
           {/* <br /> */}
           <input type='text' value={bookmark.url} name='url' onChange={handleChange} placeholder='http://link.com' />
+          {'Authored Post? '}<input type="checkbox" checked={bookmark.anon} onChange={handleChange}></input><br/>
            <input type='submit' value='Create Bookmark' />
          </form>
        </>

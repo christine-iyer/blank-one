@@ -49,7 +49,7 @@ updateBookmark(bookmark._id, { category: category })
             <option value="option c">option c</option>
             <option value="option d">option d</option>
           </select>
-<hr></hr>
+
 
         <a href={bookmark.url} target='_blank' rel='noreferrer'>{bookmark.url} Link</a>
         <button
