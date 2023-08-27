@@ -8,7 +8,7 @@ export default function Bookmark({
   const [showInput, setShowInput] = useState(false)
   const inputRef = useRef(null)
   const inputCat = useRef(null)
-  const inputTf = useRef(null)
+  const inputTf = useRef(false)
   return (
     <>
       <hr></hr>
@@ -47,8 +47,8 @@ export default function Bookmark({
           <option value="option c">option c</option>
           <option value="option d">option d</option>
         </select>
-        <a href={bookmark.url} target='_blank' rel='noreferrer'>{bookmark.url} Link</a>
-        <h4 onClick={() => setShowInput(!showInput)}>{bookmark.anon}</h4>
+
+       <h4 onClick={() => setShowInput(!showInput)}>{bookmark.anon}</h4>
         <input
           ref={inputTf}
           style={{ display: showInput ? 'block' : 'none' }}
@@ -60,8 +60,10 @@ export default function Bookmark({
               setShowInput(false)
             }
           }}
-          defaultValue={bookmark.anon}
-        />
+          // defaultValue={bookmark.anon}
+        />  
+        <a href={bookmark.url} target='_blank' rel='noreferrer'>{bookmark.url} Link</a>
+       
 
 
         <button

@@ -18,8 +18,9 @@ export default function App () {
   const [bookmark, setBookmark] = useState({
     title: '',
     category: '',
-    url: '', 
-    anon: false
+    anon: false,
+    url: ''
+    
   })
   const [bookmarks, setBookmarks] = useState([])
 
@@ -74,8 +75,9 @@ export default function App () {
       setBookmark({
         title: '',
         category: '',
-        url: '',
-        anon: false
+        anon: false,
+        url: ''
+        
       })
     }
   }
