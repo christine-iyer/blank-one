@@ -59,7 +59,7 @@ export default function App () {
   }
   const createBookmark = async () => {
     try {
-      const response = await fetch('/api/bookmarks', {
+      const response = await fetch(`/api/bookmarks`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ export default function App () {
         body: JSON.stringify({ ...bookmark })
       })
       const data = await response.json()
-      setBookmarks([data, ...bookmarks])
+      setBookmark(data)
     } catch (error) {
       console.error(error)
     } finally {
