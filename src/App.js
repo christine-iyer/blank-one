@@ -120,7 +120,7 @@ export default function App () {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`
         },
-        body: JSON.stringify(updatedData)
+        body: JSON.stringify(...updatedData)
       })
       const data = await response.json()
       const bookmarksCopy = [...bookmarks]
@@ -145,6 +145,8 @@ export default function App () {
       setToken(JSON.parse(tokenData))
     }
   }, [])
+
+  
   return (
     <>
     {
