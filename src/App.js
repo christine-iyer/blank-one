@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Auth from './components/Auth/Auth'
 import CreateBookmark from './components/CreateBookmark/CreateBookmark'
 import BookmarkList from './components/BookmarkList/BookmarkList'
+import Hello from './pages/AuthPage/AuthPage'
+import AuthPage from './pages/AuthPage/AuthPage'
 export default function App () {
   
   const handleChangeAuth = (event) => {
@@ -177,6 +180,7 @@ export default function App () {
         deleteBookmark={deleteBookmark}
         updateBookmark={updateBookmark}
       />
+      <AuthPage/>
 
     </>
   )
