@@ -1,0 +1,195 @@
+export const sculptureList =
+[
+{
+     "_id": "65088fea0326c67757c690f7",
+     "author": "crystal",
+     "title": "Steppin Out",
+     "category": "🤍",
+     "text": "Today I got to accompany Franky and Kai on their first walk together in the neighborhood. Kai suggested I bring my tea, I regrettable declined. The walk was short but we covered the neighborhood and blazed the green belt. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695059811/rfkbv0bpmiffsqpopqox.jpg",
+     "createdAt": "2023-09-18T17:59:06.949Z",
+     "updatedAt": "2023-09-22T20:08:03.595Z",
+     "__v": 0
+ },
+ {
+     "_id": "6508e15822e9f9adc1b48109",
+     "author": "Crystal",
+     "title": "Pretty. So pretty",
+     "category": "💚",
+     "text": "Because my mom’s milk came,  I spent the morning cleaning up my crib and the clearing the stairway so my parents won’t wipe out. My mom was cooperative, she helped Crystal find to nice home organization. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695080587/cxa7imkqkvw3mpppokvg.jpg",
+     "createdAt": "2023-09-18T23:46:32.181Z",
+     "updatedAt": "2023-09-22T20:01:50.371Z",
+     "__v": 0
+ },
+ {
+     "_id": "6508ecd935361a1c3f44c2ab",
+     "author": "Edith",
+     "title": "1 week with Franky",
+     "category": "💚",
+     "text": "",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695083717/nrhy3z1pzxktbpqjdu8g.jpg",
+     "createdAt": "2023-09-19T00:35:37.803Z",
+     "updatedAt": "2023-09-22T20:02:38.760Z",
+     "__v": 0
+ },
+ {
+     "_id": "6508f05a35361a1c3f44c2bd",
+     "author": "crystal",
+     "title": "Franky, at 8 hours old ",
+     "category": "💜",
+     "text": "My friend Mary Collari, who made the fabulous paper flowers for my shower, commented that she like that I was wearing cloths. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695084509/yn8juwav7magocp3mg17.jpg",
+     "createdAt": "2023-09-19T00:50:34.125Z",
+     "updatedAt": "2023-09-22T20:03:14.972Z",
+     "__v": 0
+ },
+ {
+     "_id": "6508f27335361a1c3f44c2d1",
+     "author": "Paul",
+     "title": "This is sooo boring",
+     "category": "🤍",
+     "text": "",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695085124/u5ubcq2ia56ezuzkxjdj.jpg",
+     "createdAt": "2023-09-19T00:59:31.496Z",
+     "updatedAt": "2023-09-22T20:07:45.559Z",
+     "__v": 0
+ },
+ {
+     "_id": "6508f89835361a1c3f44c2f2",
+     "author": "Grammy Mary",
+     "title": "27 hours and 40 minutes old",
+     "category": "❤️",
+     "text": "She was celebrating her 27th hour and 40 minutes in her new outside world",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695086694/jthfheele6tm7fo7le8q.jpg",
+     "createdAt": "2023-09-13T01:25:44.825Z",
+     "updatedAt": "2023-09-22T19:59:52.173Z",
+     "__v": 0
+ },
+ {
+     "_id": "6509113eeea579958166fb83",
+     "author": "Crystal ",
+     "title": "Day 7, you win",
+     "category": "💚",
+     "text": "I’m not quite at the top of my game. Pious. Crane. Grand. Oh my. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695092801/ygadmiwrctlke4aosq3l.jpg",
+     "createdAt": "2023-09-19T03:10:54.596Z",
+     "updatedAt": "2023-09-22T20:06:41.106Z",
+     "__v": 0
+ },
+ {
+     "_id": "650a50ebeea579958166fb99",
+     "author": "Fifi",
+     "title": "Cousins",
+     "category": "❤️",
+     "text": "I stopped by to welcome my young cousin. I actually had to babysit for a few seconds.  I think you can tell we had a good time. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695174655/a8d8z3owlyjj03lqvjcg.jpg",
+     "createdAt": "2023-09-20T01:54:51.069Z",
+     "updatedAt": "2023-09-22T20:06:16.346Z",
+     "__v": 0
+ },
+ {
+     "_id": "650aefb46334eff59fb20897",
+     "author": "",
+     "title": "Afternoon post nap hang",
+     "category": "💙",
+     "text": "",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695215500/cgs5nujkrkseg0r3kz6b.jpg",
+     "createdAt": "2023-09-20T13:12:20.683Z",
+     "updatedAt": "2023-09-22T20:05:52.083Z",
+     "__v": 0
+ },
+ {
+     "_id": "650b804e6334eff59fb208b7",
+     "author": "KPW",
+     "title": "Fine Linens",
+     "category": "🧡",
+     "text": "No need to fold you best bedding. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695252488/uvyuc123bm5kpvfoi83e.jpg",
+     "createdAt": "2023-09-20T23:29:18.200Z",
+     "updatedAt": "2023-09-22T20:04:38.819Z",
+     "__v": 0
+ },
+ {
+     "_id": "650cbefe5858ef9260860f6c",
+     "author": "Cristal ",
+     "title": "No more frankxiety. ",
+     "category": "🧡",
+     "text": "She’s back to her birth weight. Go girl. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695334051/hrqtvhwncrvunespaeqd.jpg",
+     "createdAt": "2023-09-21T22:09:02.344Z",
+     "updatedAt": "2023-09-22T20:04:57.487Z",
+     "__v": 0
+ },
+ {
+     "_id": "650ce3c25858ef9260860f71",
+     "author": "Crystal ",
+     "title": "Screaming for Biden",
+     "category": "💙",
+     "text": "Vote Biden ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695343485/nrrk34s3nptl08d3giwb.jpg",
+     "createdAt": "2023-09-22T00:45:54.422Z",
+     "updatedAt": "2023-09-22T20:05:19.364Z",
+     "__v": 0
+ },
+ {
+     "_id": "650e06b2bc03e1e9682ab6cb",
+     "author": "Edith",
+     "title": "Ewww",
+     "category": "🤍",
+     "text": "Eww David",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695418001/ubtiwokuouj0p0zhzhgf.jpg",
+     "likes": 0,
+     "createdAt": "2023-09-22T21:27:14.266Z",
+     "updatedAt": "2023-09-22T21:27:14.266Z",
+     "__v": 0
+ },
+ {
+     "_id": "650ee680bc03e1e9682ab6e3",
+     "author": "Franky the 1st",
+     "title": "Franky Sr",
+     "category": "🧡",
+     "text": "Once upon a time, a little bird yawned. Then some 30 years later she passed it on.",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695475180/rmb3vgszcqm4o1llogfk.jpg",
+     "likes": 0,
+     "createdAt": "2023-09-23T13:22:08.322Z",
+     "updatedAt": "2023-09-23T13:22:08.322Z",
+     "__v": 0
+ },
+ {
+     "_id": "650f46e2bc03e1e9682ab6fb",
+     "author": "Juliet Clough, Plain Dealer (Cleveland, Ohio), 30 June 1996",
+     "title": "Arctophile",
+     "category": "💜",
+     "text": "arc·to·phile /ˈärktəˌfīl/ noun a person who collects or is very fond of teddy bears.  Arctophiles and children should make time for Teddy Melrose, the teddy bear museum, tearoom and workshop. ",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695499711/jfwzmwczcu1mcr36spnb.jpg",
+     "likes": 0,
+     "createdAt": "2023-09-23T20:13:22.505Z",
+     "updatedAt": "2023-09-23T20:13:22.505Z",
+     "__v": 0
+ },
+ {
+     "_id": "650f4fa1bc03e1e9682ab701",
+     "author": "Baby's First Mail",
+     "title": "What's your social?",
+     "category": "❤️",
+     "text": "Edith you look great. Is Franky crying because SS might not Be funded for her?",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695502122/svdmfilrnufrm73xiqom.jpg",
+     "likes": 2,
+     "createdAt": "2023-09-23T20:50:41.757Z",
+     "updatedAt": "2023-09-23T20:50:41.757Z",
+     "__v": 0
+ },
+ {
+     "_id": "650f6c77e8e4a6833b8851bb",
+     "author": "Edith",
+     "title": "Bathtime!",
+     "category": "❤️",
+     "text": "We had our first bath today! It was so fun!",
+     "image": "https://res.cloudinary.com/dqjhgnivi/image/upload/v1695509592/yljfu5dt3sklavkx3gpz.jpg",
+     "likes": 0,
+     "createdAt": "2023-09-23T22:53:43.510Z",
+     "updatedAt": "2023-09-23T22:53:43.510Z",
+     "__v": 0
+ }
+]
