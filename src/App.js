@@ -71,7 +71,7 @@ export default function App () {
         body: JSON.stringify({ ...bookmark })
       })
       const data = await response.json()
-      setBookmarks(data)
+      setBookmarks(data, ...bookmarks)
     } catch (error) {
       console.error(error)
     } finally {
@@ -123,7 +123,7 @@ export default function App () {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`
         },
-        body: JSON.stringify(...updatedData)
+        body: JSON.stringify(updatedData)
       })
       const data = await response.json()
       const bookmarksCopy = [...bookmarks]
@@ -148,9 +148,9 @@ export default function App () {
       setToken(JSON.parse(tokenData))
     }
   }, [])
-  useEffect(() => {
-    listBookmarksByUser()
-  }, [bookmarks])
+  // useEffect(() => {
+  //   listBookmarksByUser()
+  // }, [bookmarks])
 
   
   return (
@@ -179,6 +179,7 @@ export default function App () {
       <BookmarkList
         bookmarks={bookmarks}
         deleteBookmark={deleteBookmark}
+        updateBookmark={updateBookmark}
 
       />
       <AuthPage/>
