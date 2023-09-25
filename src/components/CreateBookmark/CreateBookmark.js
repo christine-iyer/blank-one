@@ -11,19 +11,8 @@ export default function CreateBookmark ({
            createBookmark()
          }}
          >
-           <input type='text' value={bookmark.title} name='title' onChange={handleChange} placeholder='text' />
-           <select
-            value={bookmark.category}
-            onChange={handleChange}
-            name="category">
-            <option value="option a">option a</option>
-            <option value="option b">option b</option>
-            <option value="option c">option c</option>
-            <option value="option d">option d</option>
-          </select>
-          {/* <br /> */}
-          {'Authored Post? '}<input type="checkbox" checked={bookmark.anon} onChange={(evt) => createBookmark({...bookmark, anon: evt.target.checked })}></input><br/>
-          <input type='text' value={bookmark.url} name='url' onChange={handleChange} placeholder='http://link.com' />
+           <input type='text' value={bookmark.title} name='title' onChange={handleChange} placeholder='Title' />
+           <input type='text' value={bookmark.url} name='url' onChange={handleChange} placeholder='http://link.com' />
          <input type='submit' value='Create Bookmark' />
          </form>
        </>

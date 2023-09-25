@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 export default function Alert() {
-     const [name, setName] = useState('Enxter Name Here')
-     const [content, setContent] = useState('Enter content here')
+     const [name, setName] = useState('')
+     const [content, setContent] = useState('')
 
      function handleSubmit(e) {
           e.preventDefault()
@@ -13,15 +13,16 @@ export default function Alert() {
      return(
           <form onSubmit={handleSubmit}>
                <label>
-                    To: {' '}
+                    To: {' '}</label>
                     <select
                     value={name}
                     onChange={e => setName(e.target.value)}><option value="Oh">Oh</option>
                          <option value="Me">Me</option>
                     </select>
-               </label>
+                    <label>
+                    Says: {' '}</label>
                <textarea
-               placeholder="Enter you preferred Content"
+               placeholder="Enter content here "
                value={content}
                onChange={e=> setContent(e.target.value)}
                />
