@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Auth from './components/Auth/Auth'
 import CreateBookmark from './components/CreateBookmark/CreateBookmark'
 import BookmarkList from './components/BookmarkList/BookmarkList'
-import Hello from './pages/AuthPage/AuthPage'
+// import Hello from './pages/AuthPage/AuthPage'
 import AuthPage from './pages/AuthPage/AuthPage'
 
 // import Alert from './components/Root/Alert'
@@ -148,9 +148,6 @@ export default function App () {
       setToken(JSON.parse(tokenData))
     }
   }, [])
-  // useEffect(() => {
-  //   listBookmarksByUser()
-  // }, [bookmarks])
 
   
   return (
@@ -186,10 +183,5 @@ export default function App () {
 
     </>
   )
-  // export default function App() {
-    // return (
-    //   <>
-    //   <Alert/>
-    //   </>
-    // )
+
 }
