@@ -5,9 +5,11 @@ import CreateBookmark from './components/CreateBookmark/CreateBookmark'
 import BookmarkList from './components/BookmarkList/BookmarkList'
 // import Hello from './pages/AuthPage/AuthPage'
 import AuthPage from './pages/AuthPage/AuthPage'
+import Modal from './components/Modal/Modal'
 
 // import Alert from './components/Root/Alert'
 export default function App () {
+  const [showBookmark, setShowBookmark] = useState(false)
   
   const handleChangeAuth = (event) => {
     setCredentials({ ...credentials, [event.target.name]: event.target.value })
@@ -173,6 +175,17 @@ export default function App () {
         bookmark={bookmark}
         handleChange={handleChange}
       />
+       <button onClick={() => setShowBookmark(true)}>Show Counter Code
+        </button>
+        <Modal className="modal" isOpen={showBookmark}>
+          <h1>useState Hook Example</h1>
+          <div>
+            Hi
+          </div>
+          <br />
+          <button onClick={() =>
+            setShowBookmark(false)}>Hide Code</button>
+        </Modal>
       <BookmarkList
         bookmarks={bookmarks}
         deleteBookmark={deleteBookmark}
